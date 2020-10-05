@@ -1,10 +1,13 @@
 <module type="avtTabsPro" version="05.08.02.00">
+    <contentKey />
     <moduleID>426</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Tabs</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>2a94c1fd-5c27-489b-b108-a8b6dfdb696f</uniqueId>
+    <uniqueId>dee8053a-359a-40b0-b284-ac8af9a1cbc7</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>avt.TabsPro</definition>
