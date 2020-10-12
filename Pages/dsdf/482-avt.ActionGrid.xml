@@ -1,10 +1,13 @@
 <module type="ActionGrid" version="05.08.04.00">
+    <contentKey />
     <moduleID>482</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>Listing</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>a2e018ea-b2a9-463c-87f5-559b42975010</uniqueId>
+    <uniqueId>15b4999b-ac4b-4deb-ae9f-d7cb69620e6f</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
