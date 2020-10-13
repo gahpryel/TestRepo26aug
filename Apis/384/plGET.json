@@ -3,7 +3,7 @@
   "Description": "Returns the information of a pl record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 50,
+  "OrderIndex": 94,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -50,8 +50,8 @@
             "value": "[RecordId]"
           },
           {
-            "name": "j",
-            "value": "[Record:j]"
+            "name": "ja",
+            "value": "[Record:ja]"
           }
         ],
         "Headers": []
