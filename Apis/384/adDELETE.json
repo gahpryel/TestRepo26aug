@@ -3,7 +3,7 @@
   "Description": "Deletes the provided ad record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 28,
+  "OrderIndex": 104,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
