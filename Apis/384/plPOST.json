@@ -3,11 +3,11 @@
   "Description": "Creates a new record of type pl",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 49,
+  "OrderIndex": 93,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "j",
+      "Name": "ja",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
@@ -15,7 +15,7 @@
       "InputTypeStr": "text",
       "Validations": [
         {
-          "Data": "{\"Message\":\"j is required.\"}",
+          "Data": "{\"Message\":\"ja is required.\"}",
           "Type": "default-required",
           "IsDeleted": false,
           "IsEnabled": false,
@@ -30,7 +30,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "j": "[j]"
+        "ja": "[ja]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -64,8 +64,8 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "j",
-            "value": "[CreatedRecord:j]"
+            "name": "ja",
+            "value": "[CreatedRecord:ja]"
           }
         ],
         "Headers": [
