@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 30,
+  "Id": 24,
+  "VersionId": 24,
+  "Name": "dsa",
+  "PluralName": "das",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
