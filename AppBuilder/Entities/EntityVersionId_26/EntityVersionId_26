@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 32,
+  "Id": 26,
+  "VersionId": 26,
+  "Name": "MorDeceNumErgi",
+  "PluralName": "Mordecenumergiplural",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
