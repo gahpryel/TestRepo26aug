@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 21,
+  "Id": 15,
+  "VersionId": 15,
+  "Name": "afs",
+  "PluralName": "afss",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
