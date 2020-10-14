@@ -50,8 +50,12 @@
             "value": "[RecordId]"
           },
           {
-            "name": "cfas",
-            "value": "[Record:cfas]"
+            "name": "cfasUpdated",
+            "value": "[Record:cfasUpdated]"
+          },
+          {
+            "name": "cfaUpdated",
+            "value": "[Record:cfaUpdated]"
           }
         ],
         "Headers": []
