@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 44,
+  "Id": 38,
+  "VersionId": 38,
+  "Name": "cfa",
+  "PluralName": "cfas",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
