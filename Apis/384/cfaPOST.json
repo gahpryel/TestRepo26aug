@@ -7,7 +7,7 @@
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "cfas",
+      "Name": "cfasUpdated",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
@@ -15,13 +15,22 @@
       "InputTypeStr": "text",
       "Validations": [
         {
-          "Data": "{\"Message\":\"cfas is required.\"}",
+          "Data": "{\"Message\":\"cfasUpdated is required.\"}",
           "Type": "default-required",
           "IsDeleted": false,
           "IsEnabled": false,
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "cfaUpdated",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -30,7 +39,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "cfas": "[cfas]"
+        "cfasUpdated": "[cfasUpdated]",
+        "cfaUpdated": "[cfaUpdated]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -64,8 +74,12 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "cfas",
-            "value": "[CreatedRecord:cfas]"
+            "name": "cfasUpdated",
+            "value": "[CreatedRecord:cfasUpdated]"
+          },
+          {
+            "name": "cfaUpdated",
+            "value": "[CreatedRecord:cfaUpdated]"
           }
         ],
         "Headers": [
