@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 22,
+  "Id": 16,
+  "VersionId": 16,
+  "Name": "cas",
+  "PluralName": "cass",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
