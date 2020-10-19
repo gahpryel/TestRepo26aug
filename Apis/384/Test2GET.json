@@ -60,6 +60,10 @@
           {
             "name": "int",
             "value": "[Record:int]"
+          },
+          {
+            "name": "money",
+            "value": "[Record:money]"
           }
         ],
         "Headers": []
