@@ -57,6 +57,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "money",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -67,7 +76,8 @@
         "RecordId": "[RecordId]",
         "name": "[name]",
         "dec": "[dec]",
-        "int": "[int]"
+        "int": "[int]",
+        "money": "[money]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
