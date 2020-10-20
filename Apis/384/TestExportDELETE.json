@@ -3,7 +3,7 @@
   "Description": "Deletes the provided TestExport record",
   "HttpMethod": "DELETE",
   "IsEnabled": true,
-  "OrderIndex": 8,
+  "OrderIndex": 4,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
