@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided TestExport record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 7,
+  "OrderIndex": 3,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "Name": "asdc",
+      "Name": "name",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 1,
@@ -32,7 +32,7 @@
       "InputTypeStr": "text",
       "Validations": [
         {
-          "Data": "{\"Message\":\"asdc is required.\"}",
+          "Data": "{\"Message\":\"name is required.\"}",
           "Type": "default-required",
           "IsDeleted": false,
           "IsEnabled": false,
@@ -47,7 +47,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "asdc": "[asdc]"
+        "name": "[name]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
