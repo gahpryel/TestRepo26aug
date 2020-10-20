@@ -3,11 +3,11 @@
   "Description": "Creates a new record of type TestExport",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 5,
+  "OrderIndex": 1,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
-      "Name": "asdc",
+      "Name": "name",
       "IsDeleted": false,
       "IsEnabled": true,
       "OrderIndex": 0,
@@ -15,7 +15,7 @@
       "InputTypeStr": "text",
       "Validations": [
         {
-          "Data": "{\"Message\":\"asdc is required.\"}",
+          "Data": "{\"Message\":\"name is required.\"}",
           "Type": "default-required",
           "IsDeleted": false,
           "IsEnabled": false,
@@ -30,7 +30,7 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "asdc": "[asdc]"
+        "name": "[name]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -64,8 +64,8 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "asdc",
-            "value": "[CreatedRecord:asdc]"
+            "name": "name",
+            "value": "[CreatedRecord:name]"
           }
         ],
         "Headers": [
