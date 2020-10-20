@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 62,
+  "Id": 45,
+  "VersionId": 45,
+  "Name": "TestExport2",
+  "PluralName": "TestExport2s",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
