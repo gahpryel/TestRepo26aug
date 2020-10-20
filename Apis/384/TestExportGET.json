@@ -3,7 +3,7 @@
   "Description": "Returns the information of a TestExport record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 6,
+  "OrderIndex": 2,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -50,8 +50,8 @@
             "value": "[RecordId]"
           },
           {
-            "name": "asdc",
-            "value": "[Record:asdc]"
+            "name": "name",
+            "value": "[Record:name]"
           }
         ],
         "Headers": []
