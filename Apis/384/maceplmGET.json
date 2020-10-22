@@ -3,7 +3,7 @@
   "Description": "Returns the information of a maceplm record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 6,
+  "OrderIndex": 18,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -60,6 +60,14 @@
           {
             "name": "int",
             "value": "[Record:int]"
+          },
+          {
+            "name": "reqDec",
+            "value": "[Record:reqDec]"
+          },
+          {
+            "name": "reqInt",
+            "value": "[Record:reqInt]"
           }
         ],
         "Headers": []
