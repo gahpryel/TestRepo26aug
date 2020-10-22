@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -49,7 +48,7 @@
       &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
       &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
       &lt;InputType&gt;static-text&lt;/InputType&gt;
-      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ename:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003edec:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:dec=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container integer\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eint:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:int=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ename:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:name=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003edec:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:dec=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container integer\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eint:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:int=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ereqDec:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:reqDec=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container integer\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003ereqInt:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:reqInt=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
       &lt;Value&gt;&lt;![CDATA[&lt;div class=&quot;entity-details-container&quot;&gt;
     &lt;div class=&quot;properties-container text&quot;&gt;
         &lt;div class=&quot;entity-property&quot;&gt;
@@ -71,6 +70,20 @@
             &lt;span class=&quot;entity-property-name&quot;&gt;int:&lt;/span&gt;
         &lt;/div&gt;
         &lt;div class=&quot;entity-value&quot;&gt;[original:int=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container decimal&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;looks_one&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;reqDec:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:reqDec=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container integer&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;looks_one&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;reqInt:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:reqInt=&#39;-&#39;]&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;]]&gt;&lt;/Value&gt;
       &lt;IsRequired&gt;False&lt;/IsRequired&gt;
@@ -96,7 +109,7 @@
     &lt;Title&gt;View Form&lt;/Title&gt;
     &lt;CssName&gt;view-form&lt;/CssName&gt;
     &lt;Version&gt;5.10.0&lt;/Version&gt;
-    &lt;Build&gt;5.10.5&lt;/Build&gt;
+    &lt;Build&gt;5.10.2&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate /&gt;
@@ -113,7 +126,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;766&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.10.5&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.10.2&lt;/ModuleVersion&gt;
     &lt;TabId&gt;181&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -157,7 +170,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![HasRole:6] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2020-10-22T13:44:37.247&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-22T14:08:59.013&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to view this item.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;766&lt;/ModuleId&gt;
@@ -172,9 +185,9 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-22T13:44:37.31&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-22T14:08:59.017&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:dec&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:int&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:dec&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:int&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:reqDec&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:reqInt&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;766&lt;/ModuleId&gt;
       &lt;EventName&gt;preinit&lt;/EventName&gt;
       &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.InitializeVariablesWithDefaultValues&quot;}&lt;/MetadataJson&gt;
@@ -186,7 +199,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.maceplm&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2020-10-22T13:44:37.313&lt;/LastModified&gt;
+      &lt;LastModified&gt;2020-10-22T14:08:59.02&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:maceplmId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;766&lt;/ModuleId&gt;
