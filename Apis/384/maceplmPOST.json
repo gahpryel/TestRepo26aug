@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type maceplm",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 5,
+  "OrderIndex": 17,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -40,6 +40,40 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "reqDec",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"reqDec is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "reqInt",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 4,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"reqInt is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
     }
   ],
   "Actions": [
@@ -50,7 +84,9 @@
         "OutputToken": "CreatedRecordId",
         "name": "[name]",
         "dec": "[dec]",
-        "int": "[int]"
+        "int": "[int]",
+        "reqDec": "[reqDec]",
+        "reqInt": "[reqInt]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -94,6 +130,14 @@
           {
             "name": "int",
             "value": "[CreatedRecord:int]"
+          },
+          {
+            "name": "reqDec",
+            "value": "[CreatedRecord:reqDec]"
+          },
+          {
+            "name": "reqInt",
+            "value": "[CreatedRecord:reqInt]"
           }
         ],
         "Headers": [
