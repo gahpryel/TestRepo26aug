@@ -40,6 +40,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "notreqProp",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -50,7 +59,8 @@
         "OutputToken": "CreatedRecordId",
         "name": "[name]",
         "dec": "[dec]",
-        "int": "[int]"
+        "int": "[int]",
+        "notreqProp": "[notreqProp]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -94,6 +104,10 @@
           {
             "name": "int",
             "value": "[CreatedRecord:int]"
+          },
+          {
+            "name": "notreqProp",
+            "value": "[CreatedRecord:notreqProp]"
           }
         ],
         "Headers": [
