@@ -61,5 +61,26 @@
     "IsSearchable": false,
     "IsFilterable": false,
     "IsSortable": false
+  },
+  {
+    "Id": 97,
+    "EntityVersionId": 55,
+    "Name": "notreqProp",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
   }
 ]
