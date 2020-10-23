@@ -60,6 +60,10 @@
           {
             "name": "int",
             "value": "[Record:int]"
+          },
+          {
+            "name": "notreqProp",
+            "value": "[Record:notreqProp]"
           }
         ],
         "Headers": []
