@@ -3,7 +3,7 @@
   "Description": "Returns the information of a TEstdec record in JSON object format.",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 2,
+  "OrderIndex": 26,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
