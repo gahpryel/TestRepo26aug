@@ -3,7 +3,7 @@
   "Description": "Updates the information of the provided TEstdec record",
   "HttpMethod": "PUT",
   "IsEnabled": true,
-  "OrderIndex": 3,
+  "OrderIndex": 27,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
