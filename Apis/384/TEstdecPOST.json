@@ -3,7 +3,7 @@
   "Description": "Creates a new record of type TEstdec",
   "HttpMethod": "POST",
   "IsEnabled": true,
-  "OrderIndex": 1,
+  "OrderIndex": 25,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
