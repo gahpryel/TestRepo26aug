@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 99,
+  "Id": 57,
+  "VersionId": 57,
+  "Name": "TestNumberProp",
+  "PluralName": "TestNumberProps",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
