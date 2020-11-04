@@ -1,0 +1,41 @@
+{
+  "Id": 6,
+  "Name": "TEst",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 7,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 6,
+        "ActionType": "cs.github.test",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 17,
+            "Name": "Credentials",
+            "Value": {
+              "Type": "github",
+              "Group": "1",
+              "EntireGroup": false,
+              "Entry": "03f218f7-7bc3-4564-8495-b5d30eb2e823"
+            },
+            "IsExpression": false,
+            "ActionId": 6,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1ojpqhy"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2020-11-04T12:35:15.1979181+02:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2020-11-04T12:35:15.1979181+02:00",
+  "DiagramXML": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<bpmn:definitions xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:bpmn=\"http://www.omg.org/spec/BPMN/20100524/MODEL\" xmlns:bpmndi=\"http://www.omg.org/spec/BPMN/20100524/DI\" xmlns:dc=\"http://www.omg.org/spec/DD/20100524/DC\" xmlns:di=\"http://www.omg.org/spec/DD/20100524/DI\" id=\"Definitions_1\" targetNamespace=\"http://bpmn.io/schema/bpmn\"><bpmn:process id=\"Process_1\" isExecutable=\"false\"><bpmn:startEvent id=\"StartEvent_1\" name=\"Start\"><bpmn:outgoing>Flow_0qxn2os</bpmn:outgoing></bpmn:startEvent><bpmn:serviceTask id=\"Activity_1ojpqhy\" name=\"GitHub test credential\"><bpmn:incoming>Flow_0qxn2os</bpmn:incoming><bpmn:outgoing>Flow_1r9dl41</bpmn:outgoing></bpmn:serviceTask><bpmn:sequenceFlow id=\"Flow_0qxn2os\" sourceRef=\"StartEvent_1\" targetRef=\"Activity_1ojpqhy\" /><bpmn:endEvent id=\"Event_05ilpsq\" name=\"End\"><bpmn:incoming>Flow_1r9dl41</bpmn:incoming></bpmn:endEvent><bpmn:sequenceFlow id=\"Flow_1r9dl41\" sourceRef=\"Activity_1ojpqhy\" targetRef=\"Event_05ilpsq\" /></bpmn:process><bpmndi:BPMNDiagram id=\"BPMNDiagram_1\"><bpmndi:BPMNPlane id=\"BPMNPlane_1\" bpmnElement=\"Process_1\"><bpmndi:BPMNEdge id=\"Flow_0qxn2os_di\" bpmnElement=\"Flow_0qxn2os\"><di:waypoint x=\"209\" y=\"120\" /><di:waypoint x=\"260\" y=\"120\" /></bpmndi:BPMNEdge><bpmndi:BPMNEdge id=\"Flow_1r9dl41_di\" bpmnElement=\"Flow_1r9dl41\"><di:waypoint x=\"360\" y=\"120\" /><di:waypoint x=\"412\" y=\"120\" /></bpmndi:BPMNEdge><bpmndi:BPMNShape id=\"_BPMNShape_StartEvent_2\" bpmnElement=\"StartEvent_1\"><dc:Bounds x=\"173\" y=\"102\" width=\"36\" height=\"36\" /><bpmndi:BPMNLabel><dc:Bounds x=\"179\" y=\"145\" width=\"25\" height=\"14\" /></bpmndi:BPMNLabel></bpmndi:BPMNShape><bpmndi:BPMNShape id=\"Activity_1ojpqhy_di\" bpmnElement=\"Activity_1ojpqhy\"><dc:Bounds x=\"260\" y=\"80\" width=\"100\" height=\"80\" /></bpmndi:BPMNShape><bpmndi:BPMNShape id=\"Event_05ilpsq_di\" bpmnElement=\"Event_05ilpsq\"><dc:Bounds x=\"412\" y=\"102\" width=\"36\" height=\"36\" /><bpmndi:BPMNLabel><dc:Bounds x=\"420\" y=\"145\" width=\"20\" height=\"14\" /></bpmndi:BPMNLabel></bpmndi:BPMNShape></bpmndi:BPMNPlane></bpmndi:BPMNDiagram></bpmn:definitions>",
+  "InputFields": [],
+  "OutputFields": []
+}
