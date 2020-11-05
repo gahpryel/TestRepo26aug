@@ -1,0 +1,131 @@
+{
+  "Id": 12,
+  "Name": "sad",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 16,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 13,
+        "ActionType": "SendMail",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 44,
+            "Name": "From",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 45,
+            "Name": "To",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 46,
+            "Name": "DetermineEmail",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 47,
+            "Name": "ToAllUsers",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 48,
+            "Name": "ReplyTo",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 49,
+            "Name": "Cc",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 50,
+            "Name": "Bcc",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 51,
+            "Name": "Subject",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 52,
+            "Name": "Format",
+            "Value": "Html",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 53,
+            "Name": "Body",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 54,
+            "Name": "Headers",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 55,
+            "Name": "PortalFiles",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          },
+          {
+            "Id": 56,
+            "Name": "FileToken1",
+            "IsExpression": false,
+            "ActionId": 13,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_1opvdqv"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2020-11-05T12:12:42.1757869+02:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2020-11-05T12:12:42.1757869+02:00",
+  "InputFields": [],
+  "OutputFields": []
+}
