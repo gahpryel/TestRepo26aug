@@ -1,0 +1,39 @@
+{
+  "Id": 11,
+  "Name": "New a",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 15,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 12,
+        "ActionType": "cs.github.test",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 43,
+            "Name": "Credentials",
+            "Value": {
+              "Type": "github",
+              "Group": "",
+              "EntireGroup": false
+            },
+            "IsExpression": false,
+            "ActionId": 12,
+            "OrderIndex": 0,
+            "SubParameters": []
+          }
+        ],
+        "DiagramUID": "Activity_0p4wk8f"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2020-11-05T12:10:43.2350835+02:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2020-11-05T12:10:43.2350835+02:00",
+  "InputFields": [],
+  "OutputFields": []
+}
