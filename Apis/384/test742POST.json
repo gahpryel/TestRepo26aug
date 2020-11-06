@@ -1,0 +1,100 @@
+{
+  "Name": "test742",
+  "Description": "Creates a new record of type test742",
+  "HttpMethod": "POST",
+  "IsEnabled": true,
+  "OrderIndex": 69,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "name",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"name is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0
+        }
+      ]
+    },
+    {
+      "Name": "value",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.CreateEntity.0.test742",
+      "OrderIndex": 0,
+      "Parameters": {
+        "OutputToken": "CreatedRecordId",
+        "name": "[name]",
+        "value": "[value]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.CreateEntity",
+        "EntityIdentifier": "test742"
+      }
+    },
+    {
+      "ActionType": "PlantAnApp.ReadEntity.0.test742",
+      "OrderIndex": 1,
+      "Parameters": {
+        "RecordId": "[CreatedRecordId]",
+        "OutputToken": "CreatedRecord"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadEntity",
+        "EntityIdentifier": "test742"
+      }
+    },
+    {
+      "ActionType": "JsonObject",
+      "OrderIndex": 2,
+      "Parameters": {
+        "HttpCode": "201 Created",
+        "Fields": [
+          {
+            "name": "Id",
+            "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "name",
+            "value": "[CreatedRecord:name]"
+          },
+          {
+            "name": "value",
+            "value": "[CreatedRecord:value]"
+          }
+        ],
+        "Headers": [
+          {
+            "name": "Location",
+            "value": "http://localhost:8961/api/test742?recordId=[CreatedRecordId]"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.Response"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
