@@ -42,5 +42,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 2
+  },
+  {
+    "Id": 50,
+    "EntityVersionId": 21,
+    "Name": "time",
+    "Type": {
+      "Id": "DateTimeOffset",
+      "Name": "Local Date and Time",
+      "InputType": {
+        "Id": "DateTimeOffset",
+        "Name": "Local Date and Time",
+        "ValueType": "DateTimeOffset",
+        "Length": 10,
+        "Icon": "calendar_today"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 3
   }
 ]
