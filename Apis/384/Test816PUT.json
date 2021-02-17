@@ -54,6 +54,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "time",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -63,7 +72,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "name": "[name]",
-        "date": "[date]"
+        "date": "[date]",
+        "time": "[time]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
