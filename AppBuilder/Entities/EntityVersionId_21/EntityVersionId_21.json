@@ -1,0 +1,14 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 48,
+  "ShowDashboardModule": false,
+  "Id": 21,
+  "VersionId": 21,
+  "EntityTabId": 93,
+  "Name": "Test816",
+  "PluralName": "Test*16s",
+  "Icon": "table",
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
