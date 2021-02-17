@@ -64,5 +64,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 3
+  },
+  {
+    "Id": 51,
+    "EntityVersionId": 21,
+    "Name": "time2",
+    "Type": {
+      "Id": "Time",
+      "Name": "Time",
+      "InputType": {
+        "Id": "Time",
+        "Name": "Time",
+        "ValueType": "Time",
+        "Length": 5,
+        "Icon": "access_time"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 4
   }
 ]
