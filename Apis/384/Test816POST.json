@@ -43,6 +43,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "time2",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -53,7 +62,8 @@
         "OutputToken": "CreatedRecordId",
         "name": "[name]",
         "date": "[date]",
-        "time": "[time]"
+        "time": "[time]",
+        "time2": "[time2]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -87,8 +97,8 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "time",
-            "value": "[CreatedRecord:time]"
+            "name": "time2",
+            "value": "[CreatedRecord:time2]"
           },
           {
             "name": "name",
@@ -97,6 +107,10 @@
           {
             "name": "date",
             "value": "[CreatedRecord:date]"
+          },
+          {
+            "name": "time",
+            "value": "[CreatedRecord:time]"
           }
         ],
         "Headers": [
