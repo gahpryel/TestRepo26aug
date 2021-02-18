@@ -53,10 +53,6 @@
             "value": "[RecordId]"
           },
           {
-            "name": "time2",
-            "value": "[Record:time2]"
-          },
-          {
             "name": "name",
             "value": "[Record:name]"
           },
@@ -67,6 +63,10 @@
           {
             "name": "time",
             "value": "[Record:time]"
+          },
+          {
+            "name": "time2",
+            "value": "[Record:time2]"
           }
         ],
         "Headers": []
