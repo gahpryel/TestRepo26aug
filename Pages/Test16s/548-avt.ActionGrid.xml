@@ -7,6 +7,7 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -494,7 +495,7 @@
               &lt;TypeStr&gt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/TypeStr&gt;
               &lt;Name&gt;ConvertTime&lt;/Name&gt;
               &lt;IsExpression&gt;false&lt;/IsExpression&gt;
-              &lt;Value xsi:type=&quot;xsd:string&quot;&gt;portalTime&lt;/Value&gt;
+              &lt;Value xsi:type=&quot;xsd:string&quot;&gt;userTime&lt;/Value&gt;
             &lt;/FormatterParameterInfo&gt;
           &lt;/value&gt;
         &lt;/item&gt;
