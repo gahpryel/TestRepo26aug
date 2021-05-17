@@ -1,0 +1,126 @@
+{
+  "Id": 1,
+  "EnvironmentId": 0,
+  "NamespaceId": 2,
+  "Name": "New Workflow",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 1,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 1,
+        "Description": "TEst",
+        "ActionErrorMessage": "TEsterror msj",
+        "ActionType": "SendMail",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 1,
+            "Name": "From",
+            "Value": "gahpryel@yahoo.com",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 2,
+            "Name": "To",
+            "Value": "gabriel.pas@yahoo.com",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 3,
+            "Name": "DetermineEmail",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 4,
+            "Name": "ToAllUsers",
+            "Value": true,
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 5,
+            "Name": "ReplyTo",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 6,
+            "Name": "Cc",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 7,
+            "Name": "Bcc",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 8,
+            "Name": "Subject",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 9,
+            "Name": "Format",
+            "Value": "Html",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 10,
+            "Name": "Body",
+            "Value": "TEstTEstTEstTEstTEstTEstEmail&nbsp;TEstTEstTEstTEstTEst<p><br></p>",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 11,
+            "Name": "Headers",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 12,
+            "Name": "PortalFiles",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 13,
+            "Name": "FileToken1",
+            "IsExpression": false,
+            "ActionId": 1,
+            "OrderIndex": 0
+          }
+        ],
+        "DiagramUID": "Activity_022i6t6"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-05-17T15:52:31.0465464+03:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-05-17T15:52:31.0465464+03:00",
+  "InputFields": [],
+  "OutputFields": []
+}
