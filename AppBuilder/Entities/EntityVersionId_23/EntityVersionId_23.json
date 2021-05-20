@@ -1,0 +1,15 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 52,
+  "ShowDashboardModule": false,
+  "Id": 23,
+  "VersionId": 23,
+  "EntityTabId": 95,
+  "Name": "Ent1629",
+  "PluralName": "Ent1629s",
+  "Icon": "table",
+  "NamespaceId": 2,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
