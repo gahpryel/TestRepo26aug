@@ -406,7 +406,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:10] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.13&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.643&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to add items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -423,7 +423,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:10] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.193&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.683&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -440,7 +440,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
       &lt;Condition&gt;![h_isEdit] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:10] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.287&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.753&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to add items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -455,7 +455,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.307&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.767&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;false&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Add Ent1629&quot;},{&quot;name&quot;:&quot;original:name&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -469,7 +469,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;LoadEntitiesFromCSVFile&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.267&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.737&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;FilePath&quot;:{&quot;Expression&quot;:&quot;0dc2b652e5174230b269b149fc3f3a93.xlsx&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:true},&quot;FieldSeparator&quot;:{&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:false,&quot;Parameters&quot;:{}},&quot;EntityName&quot;:&quot;wtfbrother&quot;,&quot;UseFirstRowAsColumnNames&quot;:&quot;&quot;,&quot;OnError&quot;:[{&quot;Id&quot;:-1,&quot;$_uid&quot;:&quot;action16215961546086770&quot;,&quot;EventName&quot;:&quot;OnError&quot;,&quot;Parameters&quot;:{&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;aoleu eroare, nu-mi vine sa cred. Cineva sa cheme Kanal D&amp;lt;/p&amp;gt;&quot;},&quot;ActionType&quot;:&quot;ShowError&quot;,&quot;$_isOpen&quot;:false,&quot;$_isLoaded&quot;:true,&quot;$_isFocus&quot;:true,&quot;Definition&quot;:{&quot;IsClientAction&quot;:false,&quot;Settings&quot;:{&quot;Group&quot;:&quot;Message&quot;}},&quot;Description&quot;:&quot;aoleu eroare nu-mi vine sa cred&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -482,9 +482,9 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ImportIntoDatabaseFromEntity&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.277&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.747&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;ConnectionString&quot;:&quot;&quot;,&quot;TableName&quot;:{&quot;Expression&quot;:&quot;Ent1629&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:true,&quot;Parameters&quot;:{}},&quot;EntityName&quot;:&quot;wtfbrother&quot;,&quot;InsertAllValues&quot;:&quot;&quot;,&quot;EntityProps&quot;:&quot;&quot;,&quot;MergeExistingValues&quot;:&quot;&quot;,&quot;OnlyUpdateValues&quot;:&quot;&quot;,&quot;DeleteNonExistingValues&quot;:&quot;&quot;,&quot;OnError&quot;:[]}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;ConnectionString&quot;:&quot;&quot;,&quot;TableName&quot;:{&quot;Expression&quot;:&quot;Ent1629&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:true,&quot;Parameters&quot;:{}},&quot;EntityName&quot;:&quot;wtfbrother&quot;,&quot;InsertAllValues&quot;:&quot;&quot;,&quot;EntityProps&quot;:&quot;&quot;,&quot;MergeExistingValues&quot;:&quot;&quot;,&quot;OnlyUpdateValues&quot;:&quot;&quot;,&quot;DeleteNonExistingValues&quot;:&quot;&quot;,&quot;OnError&quot;:[],&quot;PrefixDatabaseSchema&quot;:&quot;plm&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
       &lt;FieldName&gt;Import&lt;/FieldName&gt;
       &lt;EventName&gt;click&lt;/EventName&gt;
@@ -497,7 +497,7 @@
       &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Condition&gt;!string.IsNullOrWhiteSpace([QueryString:Ent1629Id=])&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.317&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.77&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;isEdit&quot;,&quot;value&quot;:&quot;true&quot;},{&quot;name&quot;:&quot;popupTitle&quot;,&quot;value&quot;:&quot;Edit Ent1629&quot;}]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -512,7 +512,7 @@
       &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
       &lt;Condition&gt;[h_isEdit] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:10] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.297&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.76&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to edit items.&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -527,7 +527,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.UpdateEntity.0.Ent1629&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.2&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.69&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:Ent1629Id=]&quot;,&quot;name&quot;:&quot;[p_name]&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -543,7 +543,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;PlantAnApp.CreateEntity.0.Ent1629&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.14&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.653&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;OutputToken&quot;:&quot;NewEnt1629Id&quot;,&quot;name&quot;:&quot;[p_name]&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -560,7 +560,7 @@
       &lt;ActionType&gt;ShowToastAndContinue&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.15&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.66&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;AllowToastClose&quot;:true,&quot;Heading&quot;:&quot;Success&quot;,&quot;Icon&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;success&quot;,&quot;Parameters&quot;:{}},&quot;Transition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;slide&quot;,&quot;Parameters&quot;:{}},&quot;HideTime&quot;:10000,&quot;ToastPosition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;top-right&quot;,&quot;Parameters&quot;:{}},&quot;Stack&quot;:3,&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;Your data was saved&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=\&quot;//[Portal:url]/Ent1629s/Detail?Ent1629Id=[NewEnt1629Id]\&quot;&amp;gt;View details&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ShowLoader&quot;:true,&quot;LoaderColor&quot;:&quot;#FFFF00&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -576,7 +576,7 @@
       &lt;ActionType&gt;InitActionFormAndContinue&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition&gt;[QueryString:detailPage=false]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.21&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.697&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:true,&quot;Expression&quot;:&quot;557&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Params&quot;:[]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -592,7 +592,7 @@
       &lt;ActionType&gt;PlantAnApp.ReadEntity.0.Ent1629&lt;/ActionType&gt;
       &lt;OrderIndex&gt;2&lt;/OrderIndex&gt;
       &lt;Condition&gt;[isEdit]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.327&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.777&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:Ent1629Id=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -608,7 +608,7 @@
       &lt;ActionType&gt;InitActionFormAndContinue&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
       &lt;Condition&gt;[QueryString:detailPage=false]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.217&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.703&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:true,&quot;Expression&quot;:&quot;556&quot;,&quot;Value&quot;:&quot;&quot;,&quot;Parameters&quot;:{}},&quot;Params&quot;:[]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -624,7 +624,7 @@
       &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
       &lt;OrderIndex&gt;3&lt;/OrderIndex&gt;
       &lt;Condition /&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.163&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.667&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:554,&quot;Parameters&quot;:{}}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -639,7 +639,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;CloseAFPopup&lt;/ActionType&gt;
       &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.173&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.67&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:555,&quot;Parameters&quot;:{}}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -655,7 +655,7 @@
       &lt;ActionType&gt;ShowToastAndContinue&lt;/ActionType&gt;
       &lt;OrderIndex&gt;4&lt;/OrderIndex&gt;
       &lt;Condition&gt;![QueryString:detailPage=false]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.227&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.71&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;AllowToastClose&quot;:true,&quot;Heading&quot;:&quot;Success&quot;,&quot;Icon&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;success&quot;,&quot;Parameters&quot;:{}},&quot;Transition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;slide&quot;,&quot;Parameters&quot;:{}},&quot;HideTime&quot;:10000,&quot;ToastPosition&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;top-right&quot;,&quot;Parameters&quot;:{}},&quot;Stack&quot;:3,&quot;Message&quot;:&quot;&amp;lt;p&amp;gt;Your data was saved&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=\&quot;//[Portal:url]/Ent1629s/Detail?Ent1629Id=[QueryString:Ent1629Id=]\&quot;&amp;gt;View details&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&quot;,&quot;ShowLoader&quot;:true,&quot;LoaderColor&quot;:&quot;#FFFF00&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -671,7 +671,7 @@
       &lt;ActionType&gt;RefreshGrid&lt;/ActionType&gt;
       &lt;OrderIndex&gt;5&lt;/OrderIndex&gt;
       &lt;Condition&gt;![QueryString:detailPage=false]&lt;/Condition&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.237&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.717&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:554,&quot;Parameters&quot;:{}}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
@@ -686,7 +686,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;CloseAFPopup&lt;/ActionType&gt;
       &lt;OrderIndex&gt;6&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-21T14:24:58.247&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-24T14:51:02.723&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:555,&quot;Parameters&quot;:{}}}&lt;/ActionData&gt;
       &lt;ModuleId&gt;555&lt;/ModuleId&gt;
