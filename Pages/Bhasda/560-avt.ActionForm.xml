@@ -111,7 +111,7 @@
     &lt;Title&gt;avt.Action Form&lt;/Title&gt;
     &lt;CssName&gt;avt-action-form&lt;/CssName&gt;
     &lt;Version&gt;5.14.0&lt;/Version&gt;
-    &lt;Build&gt;5.14.9&lt;/Build&gt;
+    &lt;Build&gt;5.14.10&lt;/Build&gt;
     &lt;CultureCode&gt;en&lt;/CultureCode&gt;
     &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
     &lt;FrontEndTemplate&gt;&amp;lt;div&amp;gt;&amp;lt;span&amp;gt;&amp;lt;a href=&quot;[FormUrl]&quot;&amp;gt;Click here to change.&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/div&amp;gt;&lt;/FrontEndTemplate&gt;
@@ -130,7 +130,7 @@
     &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
     &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;560&lt;/ModuleId&gt;
-    &lt;ModuleVersion&gt;5.14.9&lt;/ModuleVersion&gt;
+    &lt;ModuleVersion&gt;5.14.10&lt;/ModuleVersion&gt;
     &lt;TabId&gt;97&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
@@ -173,7 +173,7 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;LoadEntitiesFromJson&lt;/ActionType&gt;
       &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-25T18:05:00.797&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-26T14:35:52.787&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
       &lt;ActionData&gt;{&quot;JsonModel&quot;:&quot;{\n\&quot;name\&quot;: \&quot;aoleu\&quot;\n}&quot;,&quot;EntityName&quot;:&quot;wtf&quot;,&quot;OnError&quot;:[],&quot;EnforceISODateTime&quot;:&quot;&quot;}&lt;/ActionData&gt;
       &lt;ModuleId&gt;560&lt;/ModuleId&gt;
@@ -186,9 +186,9 @@
       &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
       &lt;ActionType&gt;ImportIntoDatabaseFromEntity&lt;/ActionType&gt;
       &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
-      &lt;LastModified&gt;2021-05-25T18:05:00.8&lt;/LastModified&gt;
+      &lt;LastModified&gt;2021-05-26T14:35:52.807&lt;/LastModified&gt;
       &lt;LastModifiedBy&gt;1&lt;/LastModifiedBy&gt;
-      &lt;ActionData&gt;{&quot;ConnectionString&quot;:&quot;&quot;,&quot;PrefixDatabaseSchema&quot;:&quot;&quot;,&quot;TableName&quot;:{&quot;Expression&quot;:&quot;Test_1629&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:true,&quot;Parameters&quot;:{}},&quot;EntityName&quot;:&quot;wtf&quot;,&quot;InsertAllValues&quot;:true,&quot;EntityProps&quot;:&quot;&quot;,&quot;MergeExistingValues&quot;:true,&quot;OnlyUpdateValues&quot;:&quot;&quot;,&quot;DeleteNonExistingValues&quot;:&quot;&quot;,&quot;OnError&quot;:[]}&lt;/ActionData&gt;
+      &lt;ActionData&gt;{&quot;ConnectionString&quot;:&quot;&quot;,&quot;PrefixDatabaseSchema&quot;:&quot;&quot;,&quot;TableName&quot;:{&quot;Expression&quot;:&quot;Test_1629&quot;,&quot;Value&quot;:&quot;&quot;,&quot;IsExpression&quot;:true,&quot;Parameters&quot;:{}},&quot;EntityName&quot;:&quot;wtf&quot;,&quot;InsertAllValues&quot;:true,&quot;EntityProps&quot;:&quot;&quot;,&quot;MergeExistingValues&quot;:false,&quot;OnlyUpdateValues&quot;:&quot;&quot;,&quot;DeleteNonExistingValues&quot;:&quot;&quot;,&quot;OnError&quot;:[]}&lt;/ActionData&gt;
       &lt;ModuleId&gt;560&lt;/ModuleId&gt;
       &lt;FieldName&gt;Submit&lt;/FieldName&gt;
       &lt;EventName&gt;click&lt;/EventName&gt;
