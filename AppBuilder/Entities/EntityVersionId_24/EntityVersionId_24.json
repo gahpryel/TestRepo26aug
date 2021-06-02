@@ -1,0 +1,15 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 53,
+  "ShowDashboardModule": false,
+  "Id": 24,
+  "VersionId": 24,
+  "EntityTabId": 98,
+  "Name": "coriandru",
+  "PluralName": "coriandrus",
+  "Icon": "table",
+  "NamespaceId": 2,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
