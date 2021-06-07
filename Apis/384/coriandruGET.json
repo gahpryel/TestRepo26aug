@@ -53,6 +53,10 @@
             "value": "[RecordId]"
           },
           {
+            "name": "caca",
+            "value": "[Record:caca]"
+          },
+          {
             "name": "da",
             "value": "[Record:da]"
           }
