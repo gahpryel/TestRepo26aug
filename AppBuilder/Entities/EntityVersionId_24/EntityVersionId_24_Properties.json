@@ -20,5 +20,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 1
+  },
+  {
+    "Id": 54,
+    "EntityVersionId": 24,
+    "Name": "caca",
+    "Type": {
+      "Id": "Email",
+      "Name": "Email",
+      "InputType": {
+        "Id": "Email",
+        "Name": "Email",
+        "ValueType": "String",
+        "Length": 320,
+        "Icon": "mail_outline"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 2
   }
 ]
