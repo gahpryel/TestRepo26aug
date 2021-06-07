@@ -53,12 +53,16 @@
             "value": "[RecordId]"
           },
           {
-            "name": "caca",
-            "value": "[Record:caca]"
+            "name": "dada",
+            "value": "[Record:dada]"
           },
           {
             "name": "da",
             "value": "[Record:da]"
+          },
+          {
+            "name": "caca",
+            "value": "[Record:caca]"
           }
         ],
         "Headers": []
