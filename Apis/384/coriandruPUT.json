@@ -45,6 +45,15 @@
           }
         }
       ]
+    },
+    {
+      "Name": "caca",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -53,7 +62,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "da": "[da]"
+        "da": "[da]",
+        "caca": "[caca]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
