@@ -25,6 +25,15 @@
           }
         }
       ]
+    },
+    {
+      "Name": "caca",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -33,7 +42,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "da": "[da]"
+        "da": "[da]",
+        "caca": "[caca]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -65,6 +75,10 @@
           {
             "name": "Id",
             "value": "[CreatedRecordId]"
+          },
+          {
+            "name": "caca",
+            "value": "[CreatedRecord:caca]"
           },
           {
             "name": "da",
