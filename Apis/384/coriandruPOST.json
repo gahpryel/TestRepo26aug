@@ -34,6 +34,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "dada",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -43,7 +52,8 @@
       "Parameters": {
         "OutputToken": "CreatedRecordId",
         "da": "[da]",
-        "caca": "[caca]"
+        "caca": "[caca]",
+        "dada": "[dada]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -77,12 +87,16 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "caca",
-            "value": "[CreatedRecord:caca]"
+            "name": "dada",
+            "value": "[CreatedRecord:dada]"
           },
           {
             "name": "da",
             "value": "[CreatedRecord:da]"
+          },
+          {
+            "name": "caca",
+            "value": "[CreatedRecord:caca]"
           }
         ],
         "Headers": [
