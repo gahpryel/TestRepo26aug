@@ -54,6 +54,15 @@
       "Parameters": {},
       "InputTypeStr": "text",
       "Validations": []
+    },
+    {
+      "Name": "dada",
+      "IsDeleted": false,
+      "IsEnabled": false,
+      "OrderIndex": 3,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -63,7 +72,8 @@
       "Parameters": {
         "RecordId": "[RecordId]",
         "da": "[da]",
-        "caca": "[caca]"
+        "caca": "[caca]",
+        "dada": "[dada]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
