@@ -87,16 +87,16 @@
             "value": "[CreatedRecordId]"
           },
           {
-            "name": "dada",
-            "value": "[CreatedRecord:dada]"
-          },
-          {
             "name": "da",
             "value": "[CreatedRecord:da]"
           },
           {
             "name": "caca",
             "value": "[CreatedRecord:caca]"
+          },
+          {
+            "name": "dada",
+            "value": "[CreatedRecord:dada]"
           }
         ],
         "Headers": [
