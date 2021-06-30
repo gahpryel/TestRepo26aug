@@ -1,0 +1,19 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 59,
+  "ShowDashboardModule": false,
+  "Id": 27,
+  "VersionId": 27,
+  "EntityTabId": 105,
+  "Name": "Vai",
+  "PluralName": "Vaw",
+  "CreatedDate": "2021-06-30T12:03:10.8966667",
+  "CreatedBy": 1,
+  "LastModifiedBy": 1,
+  "LastModifiedOn": "2021-06-30T12:03:10.8566667",
+  "Icon": "table",
+  "NamespaceId": 2,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
