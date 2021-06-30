@@ -1,0 +1,66 @@
+{
+  "Name": "madoarenplunpicmaimult",
+  "Description": "Returns the information of all madoarenpl records in JSON object format.",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 150,
+  "CrossDomainPolicy": "PortalAliasesOnly",
+  "Inputs": [
+    {
+      "Name": "RowLimit",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 0,
+      "Parameters": {},
+      "InputTypeStr": "number",
+      "Validations": [
+        {
+          "Data": "{\"Message\":\"RowLimit is required.\"}",
+          "Type": "default-required",
+          "IsDeleted": false,
+          "IsEnabled": false,
+          "OrderIndex": 0,
+          "Metadata": {
+            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
+          }
+        }
+      ]
+    }
+  ],
+  "Actions": [
+    {
+      "ActionType": "PlantAnApp.ReadAllEntity.0.madoarenpl",
+      "OrderIndex": 0,
+      "Parameters": {
+        "OutputToken": "madoarenplunpicmaimult",
+        "RowLimit": "[RowLimit]"
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.ReadAllEntityRecords",
+        "EntityIdentifier": "madoarenpl"
+      }
+    },
+    {
+      "ActionType": "RawResponse",
+      "OrderIndex": 1,
+      "Parameters": {
+        "HttpCode": "200 OK",
+        "Content": "{\"madoarenplunpicmaimult\" : [madoarenplunpicmaimult:json]}",
+        "Headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {
+        "PAP_InternalIdentifier": "Api.RawResponse"
+      }
+    }
+  ],
+  "OnErrorActions": []
+}
