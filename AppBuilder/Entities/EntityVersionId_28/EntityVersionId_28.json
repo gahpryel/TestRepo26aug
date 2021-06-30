@@ -1,0 +1,19 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 60,
+  "ShowDashboardModule": false,
+  "Id": 28,
+  "VersionId": 28,
+  "EntityTabId": 107,
+  "Name": "madoarenpl",
+  "PluralName": "madoarenplunpicmaimult",
+  "CreatedDate": "2021-06-30T14:44:43.3166667",
+  "CreatedBy": 1,
+  "LastModifiedBy": 1,
+  "LastModifiedOn": "2021-06-30T14:44:43.3166667",
+  "Icon": "table",
+  "NamespaceId": 2,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
