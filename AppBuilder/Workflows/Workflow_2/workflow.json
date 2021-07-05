@@ -128,7 +128,17 @@
   "CreatedBy": "SuperUser Account",
   "CreatedOn": "2021-07-05T18:06:50.7738198+03:00",
   "LastModifiedBy": "SuperUser Account",
-  "LastModifiedOn": "2021-07-05T18:06:50.7738198+03:00",
-  "InputFields": [],
+  "LastModifiedOn": "2021-07-05T18:07:21.7923729+03:00",
+  "InputFields": [
+    {
+      "Required": false,
+      "DefaultValue": "",
+      "Id": 1,
+      "Name": "FolderName",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    }
+  ],
   "OutputFields": []
 }
