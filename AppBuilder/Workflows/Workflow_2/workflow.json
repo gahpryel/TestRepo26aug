@@ -1,0 +1,134 @@
+{
+  "Id": 2,
+  "EnvironmentId": 0,
+  "NamespaceId": 2,
+  "Name": "florin salam",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 2,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 2,
+        "ActionType": "GetOrCreateFolder",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 14,
+            "Name": "FolderPath",
+            "Value": "[FolderName]",
+            "IsExpression": true,
+            "ActionId": 2,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 15,
+            "Name": "OutputTokenName",
+            "Value": "Folder",
+            "IsExpression": false,
+            "ActionId": 2,
+            "OrderIndex": 0
+          }
+        ],
+        "DiagramUID": "Activity_1tm7ap8"
+      },
+      {
+        "Id": 3,
+        "ActionType": "SaveFileToDisk",
+        "OrderIndex": 1,
+        "ActionParameters": [
+          {
+            "Id": 16,
+            "Name": "InputMode",
+            "Value": "Text",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 17,
+            "Name": "Url",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 18,
+            "Name": "Content",
+            "Value": "asd fmm 10plm",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 19,
+            "Name": "Folder",
+            "Value": "[Folder:FolderId]",
+            "IsExpression": true,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 20,
+            "Name": "Pattern",
+            "Value": "[DateTime:Now|dd-MM-yyyy]",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 21,
+            "Name": "Duplicates",
+            "Value": "Rename",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 22,
+            "Name": "AbsoluteURLOutputTokenName",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 23,
+            "Name": "RelativeURLOutputTokenName",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 24,
+            "Name": "PhysicalPathOutputTokenName",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 25,
+            "Name": "LinkClickOutputTokenName",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          },
+          {
+            "Id": 26,
+            "Name": "FileIdOutputTokenName",
+            "IsExpression": false,
+            "ActionId": 3,
+            "OrderIndex": 0
+          }
+        ],
+        "DiagramUID": "Activity_0fujv10"
+      }
+    ]
+  },
+  "CreatedBy": "SuperUser Account",
+  "CreatedOn": "2021-07-05T18:06:50.7738198+03:00",
+  "LastModifiedBy": "SuperUser Account",
+  "LastModifiedOn": "2021-07-05T18:06:50.7738198+03:00",
+  "InputFields": [],
+  "OutputFields": []
+}
